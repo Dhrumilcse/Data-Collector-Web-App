@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Data Collector</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="../static/css/main.css">
+</head>
+<body>
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" action="{{url_for('success')}}" method="POST">
+				<span class="contact100-form-title">
+					Data Collector
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<input class="input100" type="text" name="height" placeholder="Height (cm)">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<input class="input100" type="text" name="weight" placeholder="Weight (kg)">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<input class="input100" type="text" name="shoesize" placeholder="Shoe Size">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<input class="input100" type="text" name="sex" placeholder="Sex (M/F)">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+							<button class="contact100-form-btn" type="submit">
+								<span>
+								Submit
+								</span>
+							</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
